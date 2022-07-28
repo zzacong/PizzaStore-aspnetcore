@@ -1,10 +1,6 @@
-namespace PizzaStore.DB;
+using PizzaStore.Models;
 
-public record Pizza
-{
-  public int Id { get; set; }
-  public string? Name { get; set; }
-}
+namespace PizzaStore.DB;
 
 public class PizzaDB
 {
