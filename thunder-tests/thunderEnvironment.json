@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "f4c79230-5cd8-473d-b3b7-b8f7c71f1a7c",
+    "name": "Pizza Store",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-08-02T07:46:25.675Z",
+    "modified": "2022-08-02T07:46:40.342Z",
+    "data": [
+      {
+        "name": "pizzaServer",
+        "value": "http://localhost:8000"
+      }
+    ]
+  }
+]

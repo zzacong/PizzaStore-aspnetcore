@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "8e088af8-aab2-41f1-9689-bbda3b4aca75",
+    "colId": "f8db452e-8365-40c3-b798-b3b75bf67255",
+    "containerId": "",
+    "name": "Get all pizzas",
+    "url": "{{pizzaServer}}/pizzas",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-02T07:43:25.861Z",
+    "modified": "2022-08-02T07:43:25.861Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "395c0e9b-f0c4-4fca-800f-640b96fe4636",
+    "colId": "f8db452e-8365-40c3-b798-b3b75bf67255",
+    "containerId": "",
+    "name": "Create new pizza",
+    "url": "{{pizzaServer}}/pizza",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-02T07:43:25.862Z",
+    "modified": "2022-08-02T07:43:25.862Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Pepperoni\",\n  \"description\": \"A classic pepperoni pizza\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f91889af-dd06-435a-a049-e8e36a3a8eeb",
+    "colId": "f8db452e-8365-40c3-b798-b3b75bf67255",
+    "containerId": "",
+    "name": "Update a pizza",
+    "url": "{{pizzaServer}}/pizza/1",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-08-02T07:43:25.863Z",
+    "modified": "2022-08-02T07:43:25.863Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Hawaiian\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "21f68605-d1b9-4754-81b2-70ee7ac288bd",
+    "colId": "f8db452e-8365-40c3-b798-b3b75bf67255",
+    "containerId": "",
+    "name": "Get a pizza",
+    "url": "{{pizzaServer}}/pizza/1",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-08-02T07:43:25.864Z",
+    "modified": "2022-08-02T07:43:25.864Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "31bad886-c1f7-4584-aad7-73b0039c48bc",
+    "colId": "f8db452e-8365-40c3-b798-b3b75bf67255",
+    "containerId": "",
+    "name": "Delete a pizza",
+    "url": "{{pizzaServer}}/pizza/3",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2022-08-02T07:43:25.865Z",
+    "modified": "2022-08-02T07:43:25.865Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": 4,\n  \"name\": \"Hawaiian\",\n  \"isGlutenFree\": true\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

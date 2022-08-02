@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "f8db452e-8365-40c3-b798-b3b75bf67255",
+    "colName": "Pizza store",
+    "created": "2022-08-02T07:43:25.859Z",
+    "sortNum": 10000,
+    "folders": [],
+    "settings": {
+      "headers": [],
+      "tests": []
+    }
+  }
+]
